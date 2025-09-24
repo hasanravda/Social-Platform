@@ -11,7 +11,8 @@
   "type": "module",
   "license": "ISC",
   "dependencies": {
-    "bcryptjs": "^3.0.2",   
+    "@stream-io/video-react-sdk": "^1.21.3",
+    "bcryptjs": "^3.0.2",
     "cookie-parser": "^1.4.7",
     "cors": "^2.8.5",
     "dotenv": "^16.5.0",
