@@ -31,7 +31,7 @@ export async function signup(req, res) {
             fullName,
             email,
             password,
-            profilePicture: randomAvatar,
+            profilePic: randomAvatar,
         });
 
         // Create the user in Stream also 
@@ -39,7 +39,7 @@ export async function signup(req, res) {
             await upsertStreamUser({
                 id: newUser._id.toString(),
                 name: newUser.fullName,
-                image: newUser.profilePicture || "",
+                image: newUser.profilePic || "",
             });
             console.log(`Stream user created for ${newUser.fullName}`);
         } catch (error) {
@@ -157,7 +157,7 @@ export async function onboard(req,res){
             await upsertStreamUser({
                 id: updatedUser._id.toString(),
                 name: updatedUser.fullName,
-                image: updatedUser.profilePicture || "",
+                image: updatedUser.profilePic || "",
             });
             console.log(`Stream user updated for ${updatedUser.fullName}`);
         } catch (error) {

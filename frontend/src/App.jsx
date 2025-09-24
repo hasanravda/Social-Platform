@@ -28,7 +28,7 @@ const App = () => {
 
   // Zustand for state management
   return (
-    <div className=" h-screen text-xl " data-theme={theme}>
+    <div className="h-screen text-xl" data-theme={theme}>
       <Routes>
         <Route
           path="/"
