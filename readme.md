@@ -1,7 +1,18 @@
 # Language Learning Social Platform
 
-Welcome to the Language Learning Social Platform!  
-This platform connects language learners and speakers from around the world, helping users make friends, chat in real-time, and practice languages together through video calls.
+A modern **MERN Stack** social platform designed to bridge language barriers and connect language learners worldwide. This full-stack application enables users to find language exchange partners, build meaningful friendships, and practice languages through real-time chat and video calls.
+
+### 🎯 Project Vision
+
+In today's globalized world, language learning has become more important than ever. Our platform solves the challenge of finding native speakers to practice with by creating a social network specifically designed for language exchange. Whether you're learning Spanish, practicing Mandarin, or perfecting your English, find the perfect language partner who shares your passion for learning.
+
+
+## Tech Stack
+
+- **Frontend:** React with TanStack Query, React Router, DaisyUI
+- **Backend:** Express.js (Node.js)
+- **Database:** MongoDB Cloud (Atlas)
+- **Real-time Chat & Video:** [Stream](https://getstream.io/)
 
 ## Features
 
@@ -20,12 +31,6 @@ This platform connects language learners and speakers from around the world, hel
 - **Notifications:**  
   Stay updated with friend request notifications and platform activities.
 
-## Tech Stack
-
-- **Frontend:** React with TanStack Query, React Router, DaisyUI
-- **Backend:** Express.js (Node.js)
-- **Database:** MongoDB Cloud (Atlas)
-- **Real-time Chat & Video:** [Stream](https://getstream.io/)
 
 ---
 
