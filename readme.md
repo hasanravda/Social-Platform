@@ -14,23 +14,30 @@ In today's globalized world, language learning has become more important than ev
 - **Database:** MongoDB Cloud (Atlas)
 - **Real-time Chat & Video:** [Stream](https://getstream.io/)
 
-## Features
+---
 
-- **Language Profiles:**  
-  Users select their native language and the language they want to learn during onboarding. This information helps match compatible language partners.
+## Key Features
 
-- **Friend System:**  
-  Send and receive friend requests with notifications to see incoming and outgoing requests.
+### Real-time Chat
+- Uses Stream Chat React SDK for messaging
+- Automatic channel creation between users
+- Message history and real-time updates
+- Rich message features (text, emojis, etc.)
 
-- **Real-time Chat:**  
-  Chat with friends in real-time using Stream Chat integration with full messaging capabilities.
+### Video Calling
+- Integrated video call button in chat interface
+- Calls initiated through chat messages with join links
+- Uses Stream Video SDK for video functionality
 
-- **Video Calls:**  
-  Start video calls directly from chat conversations, powered by [Stream](https://getstream.io/).
+### Friend System
+- Send/accept friend requests
+- View incoming and outgoing requests
+- Friends list with language matching display
 
-- **Notifications:**  
-  Stay updated with friend request notifications and platform activities.
-
+### Language Matching
+- Users set native and learning languages during onboarding
+- Recommended users based on language compatibility
+- Flag display for different languages
 
 ---
 
@@ -73,7 +80,7 @@ Based on the actual implementation:
 
 ```env
 # MongoDB Cloud connection string
-MONGODB_URI=mongodb+srv://username:password@cluster.mongodb.net/social-platform?retryWrites=true&w=majority
+MONGODB_URI=your_mongodb_url
 
 # JWT configuration
 JWT_SECRET=your_jwt_secret_key_here
@@ -134,30 +141,6 @@ VITE_STREAM_API_KEY=your_stream_api_key
    - Add `STREAM_API_KEY` and `STREAM_API_SECRET` to backend `.env`
    - Add `VITE_STREAM_API_KEY` to frontend `.env`
 
----
-
-## Key Features Implementation
-
-### Real-time Chat
-- Uses Stream Chat React SDK for messaging
-- Automatic channel creation between users
-- Message history and real-time updates
-- Rich message features (text, emojis, etc.)
-
-### Video Calling
-- Integrated video call button in chat interface
-- Calls initiated through chat messages with join links
-- Uses Stream Video SDK for video functionality
-
-### Friend System
-- Send/accept friend requests
-- View incoming and outgoing requests
-- Friends list with language matching display
-
-### Language Matching
-- Users set native and learning languages during onboarding
-- Recommended users based on language compatibility
-- Flag display for different languages
 
 ---
 
