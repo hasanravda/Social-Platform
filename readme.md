@@ -80,7 +80,7 @@ Based on the actual implementation:
 
 ```env
 # MongoDB Cloud connection string
-MONGODB_URI=your_mongodb_url
+MONGO_URI=your_mongodb_url
 
 # JWT configuration
 JWT_SECRET=your_jwt_secret_key_here
@@ -93,8 +93,6 @@ STREAM_API_SECRET=your_stream_api_secret
 PORT=5000
 NODE_ENV=development
 
-# Frontend URL (for CORS)
-CLIENT_URL=http://localhost:3000
 ```
 
 ### Frontend Environment (`.env`)
